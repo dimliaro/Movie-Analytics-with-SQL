@@ -1,0 +1,6 @@
+--10 Highest rated movies (min vote 500)
+SELECT movies.title, movies.popularity, movies.vote_average
+        from movies
+        where vote_count > 500
+        order by vote_average DESC
+        LIMIT 10;
