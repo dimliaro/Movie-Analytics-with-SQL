@@ -1,2 +1,4 @@
-*.csv
+data/TMDB_movie_dataset_v11.csv
+notebooks/movies.db
+
 
